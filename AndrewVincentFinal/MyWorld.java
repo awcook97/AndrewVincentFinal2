@@ -1,17 +1,18 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class MyWorld here.
+ * Class MyWorld
+ * This is the world that the game is played in.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @Andrew Cook & Vincent Nguyen (your name) 
+ * @1.0.0 (a version number or a date)
  */
 public class MyWorld extends World
 {
     private int luckPoints;
     private int time;
     GreenfootSound backgroundMusic = new GreenfootSound("backgroundMusic.wav");
-    //GreenfootSound 
+
     public MyWorld() {    
         super(800, 600, 1);
         luckPoints = 0;

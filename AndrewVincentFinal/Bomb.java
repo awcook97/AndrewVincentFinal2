@@ -1,10 +1,11 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Bomb here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Class Bomb
+ * When clicking the bomb class, you lose points
+ * and can potentially lose the game if you lose enough points.
+ * @Andrew Cook & Vincent Nguyen (your name) 
+ * @1.0.0 (a version number or a date)
  */
 public class Bomb extends Actor
 {

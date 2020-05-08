@@ -1,10 +1,10 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Clover here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Class Clover.
+ * Clicking these will give you points.
+ * @Andrew Cook & Vincent Nguyen (your name) 
+ * @1.0.0 (a version number or a date)
  */
 public class Clover extends Actor
 {

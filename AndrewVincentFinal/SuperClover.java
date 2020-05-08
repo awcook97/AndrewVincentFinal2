@@ -1,10 +1,11 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class SuperClover here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Class SuperClover
+ * Clicking on this will immediately win the game
+ * and give you 1,000,000 points
+ * @Andrew Cook & Vincent Nguyen (your name) 
+ * @1.0.0 (a version number or a date)
  */
 public class SuperClover extends Actor
 {
