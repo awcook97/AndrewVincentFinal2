@@ -33,6 +33,7 @@ public class Bomb extends Actor
             MyWorld myworld = (MyWorld)getWorld();
             myworld.addLuckPoints(-30);
             if (!explodeSound.isPlaying()) {
+                explodeSound.setVolume(75);
                 explodeSound.play();
             }
         }

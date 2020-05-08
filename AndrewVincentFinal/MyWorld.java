@@ -41,7 +41,6 @@ public class MyWorld extends World
         luckPoints += points;
         showLuckPoints();
         if (luckPoints < 0) {
-            //Greenfoot.playSound("gameover.wav");
             showEndMessage();
             Greenfoot.stop();
         }

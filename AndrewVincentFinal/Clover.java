@@ -40,8 +40,8 @@ public class Clover extends Actor
             MyWorld myworld = (MyWorld)getWorld();
             myworld.addLuckPoints(10);
             if (!shineSound.isPlaying()) {
-                shineSound.play();
                 shineSound.setVolume(50);
+                shineSound.play();
             }
         }
         if (clicked) {
